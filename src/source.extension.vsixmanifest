@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="f8900f8f-2d5b-4c3f-91b3-146283e99eed" Version="1.0" Language="en-US" Publisher="Mads Kristensen" />
+        <Identity Id="f8900f8f-2d5b-4c3f-91b3-146283e99eed" Version="1.1" Language="en-US" Publisher="Mads Kristensen" />
         <DisplayName>Pomodoro Timer</DisplayName>
         <Description xml:space="preserve">This extension keeps track of your time using the famous Pomodoro method</Description>
         <MoreInfo>https://github.com/madskristensen/PomodoroTimer</MoreInfo>

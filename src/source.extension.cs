@@ -11,7 +11,7 @@ namespace Pomodoro
         public const string Name = "Pomodoro Timer";
         public const string Description = @"This extension keeps track of your time using the famous Pomodoro method";
         public const string Language = "en-US";
-        public const string Version = "1.0";
+        public const string Version = "1.1";
         public const string Author = "Mads Kristensen";
         public const string Tags = "";
     }
