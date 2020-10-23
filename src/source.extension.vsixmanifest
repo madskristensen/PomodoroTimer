@@ -6,8 +6,8 @@
         <Description xml:space="preserve">This extension keeps track of your time using the famous Pomodoro method</Description>
         <MoreInfo>https://github.com/madskristensen/PomodoroTimer</MoreInfo>
         <License>Resources\LICENSE</License>
-        <Icon>Icons\logo.48.48.png</Icon>
-        <PreviewImage>Icons\logo.16.16.png</PreviewImage>
+        <Icon>Resources\Icon.png</Icon>
+        <PreviewImage>Resources\Icon.png</PreviewImage>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0, 17.0)" />

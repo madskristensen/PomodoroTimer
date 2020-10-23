@@ -70,6 +70,7 @@
     </Content>
     <Content Include="Resources\Icon.png">
       <IncludeInVSIX>true</IncludeInVSIX>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="..\LICENSE">
       <Link>Resources\LICENSE</Link>
