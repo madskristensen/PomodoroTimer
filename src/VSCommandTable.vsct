@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <Extern href="stdidcmd.h"/>
+  <Extern href="vsshlids.h"/>
+
+  <Commands package="guidPomodoroPackage">
+    <Buttons>
+      <Button guid="guidPomodoroPackageCmdSet" id="TimerToolWindowCommandId" priority="0x0100" type="Button">
+        <Parent guid="guidSHLMainMenu" id="IDG_VS_WNDO_OTRWNDWS1"/>
+        <Icon guid="MyImages" id="logo" />
+        <CommandFlag>IconIsMoniker</CommandFlag>
+        <Strings>
+          <ButtonText>Pomodoro Timer</ButtonText>
+        </Strings>
+      </Button>
+    </Buttons>
+  </Commands>
+
+  <Symbols>
+    <GuidSymbol name="guidPomodoroPackage" value="{80809696-9425-4d69-854e-0d0f74869732}" />
+
+    <GuidSymbol name="guidPomodoroPackageCmdSet" value="{f63ab421-840b-48b8-859b-550f8ce3107d}">
+      <IDSymbol name="TimerToolWindowCommandId" value="0x0100" />
+    </GuidSymbol>
+
+    <GuidSymbol name="MyImages" value="{d63849c7-5069-4409-8148-acfdc8ec5c17}">
+      <IDSymbol name="logo" value="1"/>
+    </GuidSymbol>
+
+  </Symbols>
+</CommandTable>
