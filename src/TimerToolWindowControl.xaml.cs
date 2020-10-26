@@ -22,6 +22,7 @@ namespace Pomodoro
                 {
                     _timer.Stop();
                     SystemSounds.Beep.Play();
+                    btnStartStop.Content = "Start";
                 }
 
                 _time = _time.Add(TimeSpan.FromSeconds(-1));
