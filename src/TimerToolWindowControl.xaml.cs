@@ -25,9 +25,8 @@ namespace Pomodoro
                     btnStartStop.Content = "Start";
                     ResetTime();
                 }
-
-                _time = _time.Add(TimeSpan.FromSeconds(-1));
-
+                else
+                    _time = _time.Add(TimeSpan.FromSeconds(-1));
             }, Application.Current.Dispatcher);
 
             _timer.IsEnabled = false;
@@ -49,8 +48,8 @@ namespace Pomodoro
 
         private void btnReset_Click(object sender, RoutedEventArgs e)
         {
-            ResetTime();
             _timer.Stop();
+            ResetTime();
             btnStartStop.Content = "Start";
         }
 
