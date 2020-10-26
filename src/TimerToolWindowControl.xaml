@@ -16,7 +16,7 @@
                    HorizontalAlignment="Center"
                    FontSize="40">00:20:00</Label>
             
-            <Button Content="Start" Click="button1_Click" Name="button1"/>
+            <Button Content="Start" Click="button1_Click" Name="btnStartStop"/>
             <Button Content="Reset" Click="btnReset_Click" Name="btnReset"/>
         </StackPanel>
     </Grid>
