@@ -23,6 +23,7 @@ namespace Pomodoro
                     _timer.Stop();
                     SystemSounds.Beep.Play();
                     btnStartStop.Content = "Start";
+                    ResetTime();
                 }
 
                 _time = _time.Add(TimeSpan.FromSeconds(-1));
@@ -48,10 +49,15 @@ namespace Pomodoro
 
         private void btnReset_Click(object sender, RoutedEventArgs e)
         {
-            _time = TimeSpan.FromMinutes(20);
-            lblTime.Content = _time.ToString("c");
+            ResetTime();
             _timer.Stop();
             btnStartStop.Content = "Start";
+        }
+
+        private void ResetTime()
+        {
+            _time = TimeSpan.FromMinutes(20);
+            lblTime.Content = _time.ToString("c");
         }
     }
 }
