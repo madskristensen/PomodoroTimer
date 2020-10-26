@@ -13,7 +13,7 @@ namespace Pomodoro
         public TimerToolWindowControl()
         {
             InitializeComponent();
-            _time = TimeSpan.FromMinutes(20);
+            ResetTime();
 
             _timer = new DispatcherTimer(new TimeSpan(0, 0, 1), DispatcherPriority.Normal, delegate
             {
@@ -27,6 +27,7 @@ namespace Pomodoro
                 }
                 else
                     _time = _time.Add(TimeSpan.FromSeconds(-1));
+
             }, Application.Current.Dispatcher);
 
             _timer.IsEnabled = false;
