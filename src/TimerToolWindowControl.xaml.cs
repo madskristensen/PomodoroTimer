@@ -51,6 +51,7 @@ namespace Pomodoro
             _time = TimeSpan.FromMinutes(20);
             lblTime.Content = _time.ToString("c");
             _timer.Stop();
+            btnStartStop.Content = "Start";
         }
     }
 }
